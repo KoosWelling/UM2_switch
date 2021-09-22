@@ -41,10 +41,13 @@ These positions are changed, so when you do switching in the corner, you don't w
 
 ## Cura
 Cura <3.4
+
 Copy Cura definiions from the provided zipfile.
 If you use newer version of Cura (most likely), you need to debug a bit.
 If you have a working version, please upload/send!
+
 Cura >3.4???
-Within the 'ultimaker2s_1st.def.json' extruder definition, it is/was possible to add an 'override':
-"machine_extruder_start_code": { "default_value": "G0 F9000 X219 Y17.5\nG0 F1000 X223\nG0 F9000 X219" }
+
+Within the *ultimaker2s_1st.def.json* extruder definition, it is/was possible to add an 'override':
+**"machine_extruder_start_code": { "default_value": "G0 F9000 X219 Y17.5\nG0 F1000 X223\nG0 F9000 X219" }**
 This is basically the switching code, which will automatically implemented when slicing an object.
